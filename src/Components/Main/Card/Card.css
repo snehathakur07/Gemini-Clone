@@ -1,0 +1,24 @@
+.card{
+    width:19rem;
+    height:19rem;
+    background:#f0f4f8;
+    border-radius:20px;
+    padding:1.5rem;
+    font-size:1.7rem;
+    color:grey;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor:pointer;
+    .icon{
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        img{
+            background:white;
+            padding:0.3rem;
+            border-radius:50%;
+            width:50px;
+        }
+    }
+}
