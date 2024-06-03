@@ -30,22 +30,26 @@
         width:70rem;
     }
 
-    .btns[class] {
-        display: flex !important;
+    .btns {
+        display: flex;
         gap: 1rem;
     }
 
 }
-/* 
+
 @media(max-width:600px) {
     .bar {
         width: 40rem !important;
+
         input {
             width: 25rem;
         }
+       
+
     }
+
     .bar img {
         width: 2rem;
     }
 
-} */
+}

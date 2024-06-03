@@ -138,19 +138,30 @@ hr:last-of-type {
     }
 }
 
-/* @media(max-width:600px) {
+@media(max-width:600px) {
 
     .main {
-       
+        /* min-height:100vh; */
         flex: 1;
         justify-content: space-around;
     }
+
+    .inner {
+        overflow: scroll;
+    }
+
+    .card {
+        width: 100%;
+    }
+
     .middle {
         padding: 0;
         max-height: 1170vh;
+        
     }
+
     .response-section {
         width: 100%;
         padding: 3rem 0;
     }
-} */
+}
