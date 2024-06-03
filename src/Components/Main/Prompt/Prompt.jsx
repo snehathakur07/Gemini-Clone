@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { assets } from "../../../assets/assets";
-import "./Prompt.css";
+// import "./Prompt.css";
 import { Context } from "../../../Context/Context";
 export default function Prompt() {
   const { prompt, setPrompt, sendPrompt } = useContext(Context);

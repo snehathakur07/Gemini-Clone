@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import "./Card.css";
+// import "./Card.css";
 import { Context } from "../../../Context/Context";
 
 export default function Card(props) {
