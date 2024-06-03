@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Card from "./Card/Card";
 import { assets } from "../../assets/assets";
-// import "./main.css";
+import "./main.css";
 import Prompt from "./Prompt/Prompt";
 import { Context } from "../../Context/Context";
 
