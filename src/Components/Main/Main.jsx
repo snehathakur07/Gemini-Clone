@@ -18,7 +18,7 @@ export default function Main() {
           <p>Gemini</p>
         </div>
         <div className="dp">
-          <img src={user_icon} />
+          <img src={user_icon} alt="user" />
         </div>
       </div>
       <div className="middle">
@@ -53,12 +53,12 @@ export default function Main() {
           
           <div className="response-section">
             <div className="recent-prompt">
-              <div className="icon"><img src={user_icon}/></div>
+              <div className="icon"><img src={user_icon} alt="user"/></div>
               <div className="question">{recentPrompt}</div>
             </div>
             
             <div className="response">
-            <div className={loading ? "spin" : ""}><img src={gemini_icon}/></div>
+            <div className={loading ? "spin" : ""}><img src={gemini_icon} alt="gemini"/></div>
               {loading?
               <div className="loading">
                 <hr/>

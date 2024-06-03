@@ -15,7 +15,7 @@ export default function Card(props) {
         <p>{props.text}</p>
       </div>
       <div className="icon">
-        <img src={props.icon} alt="" />
+        <img src={props.icon} alt="icon" />
       </div>
     </div>
   );

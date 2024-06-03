@@ -37,19 +37,19 @@ export default function Sidebar() {
     setResponse("");
   };
   return (
-    <div className="sidebar" style={{ width: extended == true ? "390px" : "" }}>
+    <div className="sidebar" style={{ width: extended === true ? "390px" : "" }}>
       <div className="top">
         <div className="expand-menu" onClick={handleExtend}>
           <img src={menu_icon} alt="menu" />
         </div>
         <div className="plus item" onClick={() => newChat()}>
           <div className="icon" >
-            <img src={plus_icon} />
+            <img src={plus_icon} alt="new"/>
           </div>
-          {extended == true ? "New Chat" : ""}
+          {extended === true ? "New Chat" : ""}
         </div>
 
-        {extended == true ? (
+        {extended === true ? (
           <div className="recent-searches">
             <h2>Recent</h2>
             <div className="items">
@@ -57,7 +57,7 @@ export default function Sidebar() {
                 return (
                   <div onClick={() => showPrompt(item)} className="item">
                     <div className="msg-icon icon">
-                      <img src={message_icon} />
+                      <img src={message_icon} alt="msg"/>
                     </div>
                     <p>
                       {(item.charAt(0).toUpperCase() + item.slice(1)).slice(
@@ -78,21 +78,21 @@ export default function Sidebar() {
       <div className="bottom">
         <div className="bottom-btn item">
           <div className="icon">
-            <img src={question_icon} />
+            <img src={question_icon} alt="help"/>
           </div>
-          {extended == true ? <p>Help</p> : ""}
+          {extended === true ? <p>Help</p> : ""}
         </div>
         <div className="bottom-btn item">
           <div className="icon">
-            <img src={history_icon} />
+            <img src={history_icon} alt="history"/>
           </div>
-          {extended == true ? <p>Activity</p> : ""}
+          {extended === true ? <p>Activity</p> : ""}
         </div>
         <div className="bottom-btn item">
           <div className="icon">
-            <img src={setting_icon} />
+            <img src={setting_icon} alt="setting"/>
           </div>
-          {extended == true ? <p>Settings</p> : ""}
+          {extended === true ? <p>Settings</p> : ""}
         </div>
       </div>
     </div>

@@ -21,14 +21,14 @@ export default function Prompt() {
         />
         <div className="btns">
           <div className="btn">
-            <img src={gallery_icon} />
+            <img src={gallery_icon} alt="gallery"/>
           </div>
           <div className="btn">
-            <img src={mic_icon} />
+            <img src={mic_icon} alt="mic"/>
           </div>
           {prompt === "" ? null : (
             <div className="btn" onClick={() => sendPrompt(prompt)}>
-              <img src={send_icon} />
+              <img src={send_icon} alt="send"/>
             </div>
           )}
         </div>
