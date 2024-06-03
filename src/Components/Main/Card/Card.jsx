@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Card.css";
-import { Context } from "../../Context/Context";
+import { Context } from "../../../Context/Context";
 
 export default function Card(props) {
   const {setRecentPrompt,sendPrompt}=useContext(Context)
