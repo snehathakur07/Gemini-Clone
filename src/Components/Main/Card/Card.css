@@ -1,10 +1,10 @@
 .card{
-    width:19rem;
-    height:19rem;
+    width:14rem;
+    height:14rem;
     background:#f0f4f8;
     border-radius:20px;
-    padding:1.5rem;
-    font-size:1.7rem;
+    padding:1rem;
+    font-size:1.1rem;
     color:grey;
     display:flex;
     flex-direction: column;
@@ -18,12 +18,12 @@
             background:white;
             padding:0.3rem;
             border-radius:50%;
-            width:50px;
+            width:40px;
         }
     }
 }
 @media(max-width:600px){
     .card[class] {
-        width: 100%;
+        width: 90vw;
     }
 }

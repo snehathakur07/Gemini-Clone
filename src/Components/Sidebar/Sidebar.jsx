@@ -37,7 +37,7 @@ export default function Sidebar() {
     setResponse("");
   };
   return (
-    <div className="sidebar" style={{ width: extended === true ? "390px" : "" }}>
+    <div className="sidebar" style={{ width: extended === true ? "255px " : "" }}>
       <div className="top">
         <div className="expand-menu" onClick={handleExtend}>
           <img src={menu_icon} alt="menu" />
@@ -51,7 +51,7 @@ export default function Sidebar() {
 
         {extended === true ? (
           <div className="recent-searches">
-            <h2>Recent</h2>
+            <h4>Recent</h4>
             <div className="items">
               {prevPrompts.map((item) => {
                 return (

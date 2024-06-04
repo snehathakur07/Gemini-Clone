@@ -10,8 +10,8 @@
 .bar {
     display: flex;
     background: #f0f4f8;
-    max-width: 80rem;
-    padding: 1.6rem 2rem;
+    max-width: 60rem;
+    padding: 1rem 1.4rem;
     justify-content: space-between;
     border-radius: 50px;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.199);
@@ -21,13 +21,13 @@
         border: none;
         background: #f0f4f8;
         outline: none;
-        font-size: 1.7rem;
+        font-size: 1rem;
 
         &:focus {
             border: none;
         }
 
-        width:70rem;
+        width:60rem;
     }
 
     .btns {
@@ -39,17 +39,10 @@
 
 @media(max-width:600px) {
     .bar {
-        width: 40rem !important;
-
+        width: 100vw !important;
         input {
-            width: 25rem;
-        }
-       
-
-    }
-
-    .bar img {
-        width: 2rem;
+            width: 80vw;
+        } 
     }
 
 }

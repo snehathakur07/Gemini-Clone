@@ -10,7 +10,7 @@ export default function Main() {
   // console.log(response)
   const { compass_icon, bulb_icon, message_icon, code_icon, user_icon,gemini_icon } =
     assets;
-    
+   
   return (
     <div className="main">
       <div className="top-bar">
