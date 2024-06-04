@@ -19,7 +19,7 @@ export default function Prompt() {
           value={prompt}
           onChange={handleChange}
         />
-        <div className="btns">
+        <div className="btns" style="display:flex !important;">
           <div className="btn">
             <img src={gallery_icon} alt="gallery"/>
           </div>
