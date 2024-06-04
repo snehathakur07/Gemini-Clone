@@ -10,6 +10,9 @@
   animation:fadeIn .5s linear;
   /* width:100vw; */
 }
+.bar .btns{
+  display:flex;
+}
 /* #root{
   display:flex;
   flex-direction: column;

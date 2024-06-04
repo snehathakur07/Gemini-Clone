@@ -30,7 +30,7 @@
         width:60rem;
     }
 
-    .btns {
+    .btns[class] {
         display: flex;
         gap: 1rem;
     }
